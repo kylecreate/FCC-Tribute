@@ -1,0 +1,113 @@
+/* Importing Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Adding Font for entire page */
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+h1 {
+    display: flex;
+    font-size: 3rem;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+}
+
+#bot-text {
+    justify-content: center;
+    display: flex;
+    font-size: 0.75rem;
+    padding: 10px 10px;
+}
+
+#team-logo {
+    max-height: auto;
+    display: block;
+    max-width: 4%;
+    min-width: 50px;
+    padding: 10px 0;
+}
+
+#title {
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1rem;
+    margin: 25px 0;
+    text-align: center;
+}
+
+#image {
+    max-width: 55%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 2%;
+}
+
+#img-div {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+    justify-content: center;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li {
+    margin: 16px 0;
+}
+
+#source {
+    text-align: center;
+}
+
+#tribute-links {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+#tribute-links:hover {
+    text-decoration: line-through;
+}
+
+@media screen and (max-width: 850px) {
+    #image {
+        max-width: 75%;
+    }
+}
